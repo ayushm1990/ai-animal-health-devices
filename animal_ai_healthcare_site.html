@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal AI Healthcare</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Animal AI Healthcare</h1>
+        <nav>
+            <button onclick="scrollToSection('contact')">Contact Us</button>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Our Company</h2>
+        <p>We provide innovative AI-powered healthcare solutions for animals. From diagnosis tools to smart monitoring devices, our mission is to ensure the best health for your furry friends.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/collar.jpg" alt="Smart Collar" />
+                <h3>Smart Health Collar</h3>
+                <p>Monitors temperature, heart rate, and activity levels.</p>
+                <div class="review">
+                    <p>"The smart collar saved my dog's life! Incredible tech." - Priya R.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="images/feeder.jpg" alt="AI Feeder" />
+                <h3>AI Food Dispenser</h3>
+                <p>Smart portion control with diet recommendations.</p>
+                <div class="review">
+                    <p>"Feeding is now automatic and balanced. Loving it!" - Rajiv M.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="images/monitor.jpg" alt="Health Monitor" />
+                <h3>Health Diagnostic Monitor</h3>
+                <p>Detects symptoms and alerts vets in real-time.</p>
+                <div class="review">
+                    <p>"It alerted us about a fever in advance. Super helpful!" - Anita D.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form id="feedback-form">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Feedback" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Animal AI Healthcare</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
